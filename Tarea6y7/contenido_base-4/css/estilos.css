@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana;
+    width: 90%;
+    margin-left: 5%;
+    /* Paso 2: Fuente adaptable al ancho del viewport */
+    font-size: 3vw;
+}
+
+header {
+    /* Paso 3: Espaciados y bordes en unidades vh y vw */
+    padding: 1vh 1vw;
+    margin-bottom: 1vh;
+    border-radius: 1vh;
+    background: -webkit-linear-gradient(left, #1f47a8, #55dedf);
+    background: -o-linear-gradient(right, #1f47a8, #55dedf);
+    background: -moz-linear-gradient(right, #1f47a8, #55dedf);
+    background: linear-gradient(to right, #1f47a8, #55dedf);
+}
+
+#contenido {
+    margin: 1%;
+}
+
+header h1 {
+    padding-left: 1%;
+    font-size: 1.5em;
+}
+
+footer {
+    font-size: 0.8em;
+    border-top: solid 2px #1f47a8;
+    /* Paso 4: Rellenos y márgenes superiores en vw */
+    padding-top: 1vw;
+    margin-top: 1vw;
+    text-align: center;
+}
